@@ -77,17 +77,14 @@ button:hover{transform:translateY(-2px);filter:brightness(1.1)}
 
 <script>
 const mensagens = [
-    "GUBERTO, você foi oficialmente selecionado para receber esta mensagem e você é um lixo. Não há recurso.",
-    "🚨 ALERTA: Guberto Gay. A situação está sob controle. Provavelmente.",
-    "Parabéns, Guberto. Você desbloqueou uma prisão por estrupar crianças que ninguém informou.",
+    "GUBERTO, você foi oficialmente selecionado para receber esta imagem. Não há recurso.",
+    "🚨 ALERTA: Guberto detectado. A situação está sob controle. Provavelmente.",
+    "Parabéns, Guberto. Você desbloqueou uma imagem que ninguém pediu.",
     "Guberto, isso aqui é uma mensagem extremamente importante. Mentira. 😂",
-    "Sistema informa: Guberto deve olhar a foto da mãe do Isaac imediatamente.",
+    "Sistema informa: Guberto deve olhar a foto imediatamente.",
     "Você recebeu este comunicado porque o universo aparentemente quis."
-    "você é um lixo assim como sua família"]
-
-    ]; 
-
-    let mensagemAtual = mensagens[0];
+];
+let mensagemAtual = mensagens[0];
 function gerarMensagem(){
     mensagemAtual = mensagens[Math.floor(Math.random() * mensagens.length)];
     document.getElementById("mensagem").textContent = mensagemAtual;
